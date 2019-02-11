@@ -44,8 +44,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SortString.c">
-      <Filter>Source Files\String Problems</Filter>
+    <ClCompile Include="Data Structures\Array\FindSubArraySum.c">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
