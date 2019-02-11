@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Sorting Algorithms">
+      <UniqueIdentifier>{54641f87-0e32-41e8-a2d0-61da43264b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Searching Algorithms">
+      <UniqueIdentifier>{0d6bbd26-580d-4864-97a1-5473567405eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Divide And Conquer Algorithms">
+      <UniqueIdentifier>{25b1f676-c604-4c48-a1ae-f1e8851fad2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Greedy Algorithms">
+      <UniqueIdentifier>{0fd339c1-72d1-4673-ac9f-752b8dd31d82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Dynamic Problems">
+      <UniqueIdentifier>{449dd549-3c02-46be-9eea-1285e543b773}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graph Algorithms">
+      <UniqueIdentifier>{ac117d7c-2ebf-4c5d-902c-ab873c69c41f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Backtracking Algorithms">
+      <UniqueIdentifier>{f36639c4-503d-402e-b17d-ac1e860fecc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\String Problems">
+      <UniqueIdentifier>{24cdf5fc-98d6-40e9-86f1-016ce3487e6a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SortString.c">
+      <Filter>Source Files\String Problems</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
