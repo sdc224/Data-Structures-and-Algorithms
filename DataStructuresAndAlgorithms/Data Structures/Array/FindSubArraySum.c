@@ -34,17 +34,51 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// This logic works only for non negative input
 int sub_array_with_sum(const int arr[], const int n, const int sum)
 {
 	int current_sum = arr[0], start = 0;
 
 	for (int i = 1; i <= n; i++)
-	{
+	{		
 		while (current_sum > sum && start < i - 1)
 		{
 			current_sum -= arr[start];
 			start++;
 		}
+
+		if (current_sum == sum)
+		{
+			printf("Sum found from index %d to %d\n", start + 1, i);		// index are start and i - 1
+			return 1;
+		}
+
+		if (i < n)
+			current_sum += arr[i];
+	}
+
+	printf("Sum is not found in any of the sub-arrays\n");
+	return 0;
+}
+
+int sub_array_with_sum_for_negative(const int arr[], const int n, const int sum)
+{
+	int current_sum = arr[0], start = 0;
+
+	for (int i = 1; i <= n; i++)
+	{		
+		if (sum > 0)
+			while (current_sum > sum && start < i - 1)
+			{
+				current_sum -= arr[start];
+				start++;
+			}
+		else
+			while (current_sum < sum && start < i - 1)
+			{
+				current_sum -= arr[start];
+				start++;
+			}
 
 		if (current_sum == sum)
 		{
@@ -75,7 +109,7 @@ int main(void)
 		for (int i = 0; i < n; i++)
 			scanf_s("%d", &arr[i]);
 
-		sub_array_with_sum(arr, n, s);
+		sub_array_with_sum_for_negative(arr, n, s);
 
 		free(arr);
 	}
