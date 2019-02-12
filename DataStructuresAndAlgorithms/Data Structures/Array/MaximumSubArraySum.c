@@ -33,27 +33,56 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// This logic works only for non negative input
 int max_sub_array_sum(const int arr[], const int n)
 {
-	int sum = arr[0], start = 0;
-	int current_sum = arr[0];
+	int sum = INT_MIN, current_sum = 0;
 
-	for (int i = 1; i <= n; i++)
-	{		
-		if (current_sum > sum)
-			sum = current_sum;
-
-		while (current_sum < sum && start < i - 1)
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = i; j < n; j++)
 		{
-			current_sum -= arr[start];
-			start++;
-		}
+			current_sum = 0;
 
-		if (i < n)
-			current_sum += arr[i];
+			for (int k = i; k <= j; k++)
+			{
+				current_sum += arr[k];
+			}
+			
+			if (current_sum > sum)
+				sum = current_sum;
+		}
 	}
-		
+
+	return sum;
+}
+
+int max_sub_array_sum_optimized(const int arr[], const int n)
+{
+	int sum = arr[0], current_sum = arr[0];
+	int s = 0, starting_index = 0, ending_index = 0;
+
+	for (int i = 1; i < n; i++)
+	{
+		current_sum = max(arr[i], current_sum + arr[i]);
+		//sum = max(sum, current_sum);
+		if (sum < current_sum)
+		{
+			sum = current_sum;
+			starting_index = s;
+			ending_index = i;
+		}
+		else
+		{
+			s = i + 1;
+		}
+	}
+
+	printf("Starting index: %d\nEnding index: %d\n", starting_index + 1, ending_index + 1);
+	printf("Elements that produce maximum sum...\n");
+	for (int i = starting_index; i <= ending_index; i++)
+		printf("%d ", arr[i]);
+	printf("\n");
+
 	return sum;
 }
 
@@ -72,7 +101,7 @@ int main(void)
 		for (int i = 0; i < n; i++)
 			scanf_s("%d", &arr[i]);
 
-		printf("Max Sub array sum = %d\n", max_sub_array_sum(arr, n));
+		printf("Max Sub array sum = %d\n", max_sub_array_sum_optimized(arr, n));
 
 		free(arr);
 	}
