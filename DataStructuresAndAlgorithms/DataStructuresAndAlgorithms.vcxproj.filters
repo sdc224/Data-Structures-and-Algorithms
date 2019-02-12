@@ -44,7 +44,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Data Structures\Array\MaximumSubArraySum.c">
+    <ClCompile Include="Data Structures\Array\PrintAllSubArray.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -22,7 +22,7 @@
     <ClInclude Include="hash.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Data Structures\Array\MaximumSubArraySum.c" />
+    <ClCompile Include="Data Structures\Array\PrintAllSubArray.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
