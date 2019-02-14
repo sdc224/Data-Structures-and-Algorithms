@@ -44,7 +44,10 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Data Structures\Array\MaximumSubArraySum.c">
+    <ClCompile Include="Data Structures\Array\FindMissingNumber.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Data Structures\Array\Print0s1s2s.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
