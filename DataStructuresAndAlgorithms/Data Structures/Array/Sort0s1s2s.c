@@ -34,6 +34,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// Counting process
+// Algorithm: Count no of zero, one and two, and then replace with the previous array
+/*
+ * Problems: 
+ * 1) It requires two traversals of array.
+ * 2) This solution may not work if values are a part of structure.
+ *  For example, consider a situation where 0 represents 
+ *  Computer Science Stream, 1 represents Electronics and 2 represents Mechanical.
+ *   We have a list of student objects (or structures) and we want to sort them.
+ *    We cannot use above sort as we simply put 0s, 1s and 2s one by one.
+ */
 void sort_0_1_2(int *arr, const int n)
 {
 	int no_of_zero = 0, no_of_one = 0, no_of_two = 0;
@@ -42,21 +53,19 @@ void sort_0_1_2(int *arr, const int n)
 	{
 		if (arr[i] == 0)
 			no_of_zero++;
-
-		if (arr[i] == 1)
+		else if (arr[i] == 1)
 			no_of_one++;
-
-		if (arr[i] == 2)
+		else if (arr[i] == 2)
 			no_of_two++;
 	}
 
 	for (int i = 0; i < no_of_zero; i++)
 		arr[i] = 0;
 
-	for (int i = no_of_zero; i < no_of_one; i++)
+	for (int i = no_of_zero; i < no_of_zero + no_of_one; i++)
 		arr[i] = 1;
 
-	for (int i = no_of_one; i < no_of_two; i++)
+	for (int i = no_of_zero + no_of_one; i < n; i++)
 		arr[i] = 2;
 }
 
@@ -81,8 +90,6 @@ int main(void)
 			printf("%d ", arr[i]);
 
 		printf("\n");
-
-		free(arr);
 	}
 	
 	return 0;

@@ -22,8 +22,7 @@
     <ClInclude Include="hash.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Data Structures\Array\FindMissingNumber.c" />
-    <ClCompile Include="Data Structures\Array\Print0s1s2s.c" />
+    <ClCompile Include="Data Structures\Array\Sort0s1s2s.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
