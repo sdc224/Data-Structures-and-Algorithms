@@ -69,6 +69,43 @@ void sort_0_1_2(int *arr, const int n)
 		arr[i] = 2;
 }
 
+void swap(int *a, int *b)
+{
+	const int temp = *a;
+	*a = *b;
+	*b = temp;
+}
+
+void sort_0_1_2_optimized(int *arr, const int n)
+{
+	int low = 0, mid = 0, high = n - 1;
+
+	while (mid <= high)
+	{
+		switch (arr[mid])
+		{
+		case 0:
+			swap(&arr[low], &arr[mid]);
+			low++;
+			mid++;
+			break;
+
+		case 1:
+			mid++;
+			break;
+
+		case 2:
+			swap(&arr[mid], &arr[high]);
+			high--;
+			mid++;
+			break;
+
+		default:
+			break;
+		}
+	}
+}
+
 int main(void)
 {
 	int t;
@@ -84,7 +121,7 @@ int main(void)
 		for (int i = 0; i < n; i++)
 			scanf_s("%d", &arr[i]);
 
-		sort_0_1_2(arr, n);
+		sort_0_1_2_optimized(arr, n);
 
 		for (int i = 0; i < n; i++)
 			printf("%d ", arr[i]);
