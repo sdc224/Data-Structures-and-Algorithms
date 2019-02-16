@@ -22,7 +22,7 @@
     <ClInclude Include="hash.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Data Structures\Array\LongestIncreasingSubsequence.c" />
+    <ClCompile Include="Data Structures\Array\LeadersInArray.c" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

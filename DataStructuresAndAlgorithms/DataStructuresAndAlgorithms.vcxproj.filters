@@ -44,7 +44,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Data Structures\Array\LongestIncreasingSubsequence.c">
+    <ClCompile Include="Data Structures\Array\LeadersInArray.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
