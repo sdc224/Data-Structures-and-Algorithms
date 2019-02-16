@@ -19,10 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="hash.h" />
+    <ClCompile Include="Data Structures\Array\MinimumPlatforms.c" />
+    <ClCompile Include="Headers\Resource Files\sorting.c" />
+    <ClCompile Include="Headers\Resource Files\swap_integers.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Data Structures\Array\LeadersInArray.c" />
+    <ClInclude Include="Headers\Header Files\sorting.h" />
+    <ClInclude Include="Headers\Header Files\swap_integers.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
@@ -94,6 +97,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\souro\source\repos\DataStructuresAndAlgorithms\DataStructuresAndAlgorithms\Headers\Header Files;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>

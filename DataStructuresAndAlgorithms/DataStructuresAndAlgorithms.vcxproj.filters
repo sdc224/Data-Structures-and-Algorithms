@@ -39,13 +39,22 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="hash.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Data Structures\Array\LeadersInArray.c">
+    <ClCompile Include="Data Structures\Array\MinimumPlatforms.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Headers\Resource Files\sorting.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Headers\Resource Files\swap_integers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\Header Files\sorting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Header Files\swap_integers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
