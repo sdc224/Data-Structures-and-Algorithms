@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Data Structures\Array\MaxSubArrayOfSizeK.c">
+    <ClCompile Include="Data Structures\Array\ReverseArrayInGroups.c">
       <SubType>
       </SubType>
     </ClCompile>

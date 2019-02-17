@@ -45,7 +45,7 @@
     <ClCompile Include="Headers\Resource Files\swap_integers.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Data Structures\Array\MaxSubArrayOfSizeK.c">
+    <ClCompile Include="Data Structures\Array\ReverseArrayInGroups.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
