@@ -19,7 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Data Structures\Array\MinimumPlatforms.c" />
+    <ClCompile Include="Data Structures\Array\MaxSubArrayOfSizeK.c">
+      <SubType>
+      </SubType>
+    </ClCompile>
     <ClCompile Include="Headers\Resource Files\sorting.c" />
     <ClCompile Include="Headers\Resource Files\swap_integers.c" />
   </ItemGroup>

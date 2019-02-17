@@ -39,13 +39,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Data Structures\Array\MinimumPlatforms.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Headers\Resource Files\sorting.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Headers\Resource Files\swap_integers.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Data Structures\Array\MaxSubArrayOfSizeK.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
