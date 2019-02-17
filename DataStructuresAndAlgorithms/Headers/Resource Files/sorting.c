@@ -123,8 +123,7 @@ int partition(int arr[], const int start, const int end)
 	int j = start - 1;
 
 	for (int i = start; i < end; i++)
-	{
-		
+	{		
 		if (arr[i] <= pivot)
 		{
 			j++;
@@ -132,7 +131,7 @@ int partition(int arr[], const int start, const int end)
 		}
 	}
 	swap(&arr[j + 1], &arr[end]);
-	return (j + 1);
+	return j + 1;
 }
 
 void quick_sort_helper(int arr[], const int start, const int end)
