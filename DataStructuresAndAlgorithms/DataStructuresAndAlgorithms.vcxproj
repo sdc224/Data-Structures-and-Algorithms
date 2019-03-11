@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Data Structures\Array\KthSmallestElement.c">
+    <ClCompile Include="Data Structures\Array\PythagoreanTriplet.c">
       <SubType>
       </SubType>
     </ClCompile>
