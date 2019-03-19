@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Data Structures\Array\PythagoreanTriplet.c">
+    <ClCompile Include="Data Structures\Array\ChocolateDistributionProblem.c">
       <SubType>
       </SubType>
     </ClCompile>
