@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Data Structures\Array\LeftSideSmallerRightSideGreater.c">
+    <ClCompile Include="Data Structures\Array\ConvertArrayToZigZag.c">
       <SubType>
       </SubType>
     </ClCompile>
