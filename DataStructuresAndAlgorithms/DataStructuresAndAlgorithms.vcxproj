@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Data Structures\Array\StockBuyAndSell.c">
+    <ClCompile Include="Data Structures\Array\LeftSideSmallerRightSideGreater.c">
       <SubType>
       </SubType>
     </ClCompile>

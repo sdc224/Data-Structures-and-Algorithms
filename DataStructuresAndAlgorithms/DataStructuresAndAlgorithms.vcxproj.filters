@@ -45,7 +45,7 @@
     <ClCompile Include="Headers\Resource Files\swap_integers.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Data Structures\Array\StockBuyAndSell.c">
+    <ClCompile Include="Data Structures\Array\LeftSideSmallerRightSideGreater.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
