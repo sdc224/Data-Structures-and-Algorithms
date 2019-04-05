@@ -45,9 +45,6 @@
     <ClCompile Include="Headers\Resource Files\swap_integers.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Data Structures\Array\ConvertArrayToZigZag.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Headers\Header Files\sorting.h">
