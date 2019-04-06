@@ -27,13 +27,13 @@ extern int length_list(node *start);
 
 // region Insertion
 
-extern node new_single_link_node(int data);
+extern node* new_single_link_node(int data);
 
 extern void insert_at_beginning(node **start, int data);
 
 extern void insert_at_end(node **start, int data);
 
-extern void insert_at_location(node *start, int data, int location);
+/*extern void insert_at_location(node *start, int data, int location);
 
 extern void insert_before_value(node *start, int data, int value);
 
@@ -75,6 +75,6 @@ extern void reverse_recursive(node *start);
 
 extern void detect_loop(node *start);
 
-extern void node_swap(node **start, int x, int y);
+extern void node_swap(node **start, int x, int y);*/
 
 // endregion
