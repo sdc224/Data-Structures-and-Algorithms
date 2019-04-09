@@ -45,10 +45,7 @@
     <ClCompile Include="Headers\Resource Files\swap_integers.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Data Structures\Linked List\Single Linked List\Implementation.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Data Structures\Linked List\Single Linked List\main.c">
+    <ClCompile Include="Graph Algorithms\KNeighbourVisit.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -57,9 +54,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Headers\Header Files\swap_integers.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Headers\Header Files\Data Structures\Linked List\SingleLinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

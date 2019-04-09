@@ -19,13 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Data Structures\Linked List\Single Linked List\Implementation.c" />
-    <ClCompile Include="Data Structures\Linked List\Single Linked List\main.c" />
+    <ClCompile Include="Graph Algorithms\KNeighbourVisit.c" />
     <ClCompile Include="Headers\Resource Files\sorting.c" />
     <ClCompile Include="Headers\Resource Files\swap_integers.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Headers\Header Files\Data Structures\Linked List\SingleLinkedList.h" />
     <ClInclude Include="Headers\Header Files\sorting.h" />
     <ClInclude Include="Headers\Header Files\swap_integers.h" />
   </ItemGroup>
@@ -40,7 +38,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
