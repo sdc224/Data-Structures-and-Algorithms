@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Graph Algorithms\KNeighbourVisit.c" />
+    <ClCompile Include="Data Structures\Array\TrappingRainWater.c" />
     <ClCompile Include="Headers\Resource Files\sorting.c" />
     <ClCompile Include="Headers\Resource Files\swap_integers.c" />
   </ItemGroup>

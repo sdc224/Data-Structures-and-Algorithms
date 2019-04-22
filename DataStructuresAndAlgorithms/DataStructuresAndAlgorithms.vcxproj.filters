@@ -45,7 +45,7 @@
     <ClCompile Include="Headers\Resource Files\swap_integers.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Graph Algorithms\KNeighbourVisit.c">
+    <ClCompile Include="Data Structures\Array\TrappingRainWater.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
